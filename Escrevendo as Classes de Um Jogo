@@ -1,0 +1,27 @@
+let name = "Princess Snake";
+let age = 14
+let type = "wizard";
+
+function attack(type, weapon){
+
+while(i>=4){
+if(type ==="wizard"){
+  weapon = "magic";
+}
+else if(type === "warrior"){
+  weapon = "sword";
+}
+else if (type === "monk"){
+weapon = "martial arts";
+}
+else if(type ==="ninja"){
+  weapon= "shuriken";
+}
+else weapon = "indefinida"
+
+
+
+}}
+
+
+console.log(`O ${type}, ${name} atacou usando ${weapon}`)
